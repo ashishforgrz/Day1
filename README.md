@@ -42,9 +42,9 @@ The git pull command is used to get updates from the remote repo
 git pull <remote>
 
 Git Reset -
-git reset [file]                                                       -     command unstages the file, but it preserves the file contents
+git reset [file]                                                       -      command unstages the file, but it preserves the file contents
 Git rm - 
-git rm [file]                                                          -     deletes the file from your working directory and stages the deletion     
+git rm [file]                                                          -      deletes the file from your working directory and stages the deletion     
   
 Git revert -
 git log -- oneline                                                     -      This is used to see our commit history
