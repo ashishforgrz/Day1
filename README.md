@@ -1,6 +1,8 @@
 # 17-05-2022
 
-
+git config-
+                                                                       -      git config –global user.name “[name]”
+                                                                       -      git config –global user.email “[email address]”      
 Git Clone -
 git clone <repo name>                                                  -      Creating clone of particular repository
 
@@ -8,6 +10,11 @@ Git Branch -
 git branch <branch name>                                               -      Creating new branch
 git branch -d <branch name>                                            -      Deleting a branch
 
+Git Stash - 
+git stash save                                                         -      temporarily stores all the modified tracked files
+ 
+Git Log -
+git log                                                                -      list the version history for the current branch
 Git Checkout -
 git checkout <name-of-my-branch>                                       -      Switch to this branch
 git checkout -b <name-of-your-branch>                                  -      Make a new branch and switch to that branch
@@ -34,6 +41,11 @@ Git Pull-
 The git pull command is used to get updates from the remote repo
 git pull <remote>
 
+Git Reset -
+git reset [file]                                                       -     command unstages the file, but it preserves the file contents
+Git rm - 
+git rm [file]                                                          -     deletes the file from your working directory and stages the deletion     
+  
 Git revert -
 git log -- oneline                                                     -      This is used to see our commit history
 git revert <commit code>                                               -      Reset the changes that has been done
